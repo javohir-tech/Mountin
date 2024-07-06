@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mountain</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, inital-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Fredoka:wdth,wght@75..125,300..700&family=Lato:wght@300;400;700&family=Philosopher:wght@400;700&family=Roboto:ital,wght@0,300;1,100;1,300;1,400;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="bezaklar/main.css">
+    </head>
+    <body>
+       
+        <!-- main page -->
+        <div class="box mt-3">
+        <!-- Navigation Section -->
+        <div class="container">
+            <div class="main-navigation d-flex justify-content-between align-items-center">
+                <div class="navigation-brand text-uppercase">
+                    Mountain
+                </div>
+                <div class="navigation-search">
+                    <input type="search" class="me-2" placeholder="Search for places" aria-label="search">
+                    <i class="bi bi-envelope ms-3 px-2 py-1"></i>
+                </div>
+                <div class="navigation-map d-flex align-items-center border-start px-2 justify-content-end">
+                    <span class="me-2">
+                        <i class="bi bi-geo-alt-fill"></i>
+                    </span>
+                      <span class="ms-2 me-3">New York/Dc</span>
+                      <div class="me-4 rocket border rounded-circle px-2 py-1">
+                        <i class="bi bi-rocket-fill"></i>
+                      </div>
+                      <div class="navigation-img me-5 ">
+                        <img src="bezaklar/media/navigation-img.png" class="img-fluid rounded-circle" alt="navigation img">
+                      </div>
+                </div>
+            </div>
+        </div>
+            <!-- /Navigation Section-->
+
+        <!-- main section -->
+        <div class="container">
+            <div class="row mt-3">
+                <!-- left position -->
+                <div class="col-2">
+                    <div class="categories p-2 my-5">
+                        <i class="bi bi-house-fill"></i>
+                        <span class="ms-2"><a href="#">Dashboard</a></span>
+                    </div>
+                    <div class="categories p-2 my-5">
+                        <i class="bi bi-sticky-fill"></i>
+                        <span class="ms-2"><a href="#">Note’s</a></span>
+                    </div>
+                    <div class="categories p-2 my-5">
+                        <i class="bi bi-moon-fill"></i>
+                        <span class="ms-2"><a href="#">Note’s</a></span>
+                    </div>
+                    <div class="categories p-2 my-5">
+                        <i class="bi bi-person-lines-fill"></i>
+                        <span class="ms-2"><a href="#">Account</a></span>
+                    </div>
+                    <div class="categories p-2 my-5">
+                        <i class="bi bi-search-heart-fill"></i>
+                        <span class="ms-2"><a href="#">Explore</a></span>
+                    </div>
+                    <div class="categories p-2 my-5">
+                        <i class="bi bi-pie-chart-fill"></i>
+                        <span class="ms-2"><a href="#">Graph</a></span>
+                    </div>
+                    <div class="categories p-2 my-5">
+                        <i class="bi bi-chat-right-text-fill"></i>
+                        <span class="ms-2"><a href="#">Messages</a></span>
+                    </div>
+                    <div class="categories p-2 my-5">
+                        <i class="bi bi-gear-fill"></i>
+                        <span class="ms-2"><a href="#">Setting</a></span>
+                    </div>
+                </div>
+                <!-- /left position-->
+
+                <!-- center position -->
+                <div class="col-7">
+                    <div class="section-title p-2 mt-4">
+                        Discover World
+                    </div>
+                    <!-- center navigation -->
+                    <nav class="d-flex center-position__navigation p-2">
+                        <ul class="list-inline">
+                            <li class="list-inline-item little">
+                                <a href="#">Recommended</a>
+                            </li>
+                            <li class="list-inline-item little">
+                                <a href="#">Popular Places</a>
+                            </li>
+                            <li class="list-inline-item little">
+                                <a href="#">Popular Places</a>
+                            </li>
+                        </ul>
+                    </nav> 
+                    <!-- /center navigation -->
+                    <!-- tepadagi 3 ta sosiy rasm -->
+                    <div class="main-cards row">
+                        <div class="main-card p-2 col-4 position-relative">
+                            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active" data-bs-interval="2000">
+                                    <img src="bezaklar/media/card-1-img.png" class="img-fluid" alt="card img">
+                                    <div class="card-icon rounded-circle d-flex justify-content-center align-items-center position-absolute main-card-icon">
+                                    <i class="bi bi-heart-fill"></i>
+                                  </div>
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="2000">
+                                    <img src="bezaklar/media/card-1-1.png" class="img-fluid" alt="card img">
+                                    <div class="card-icon rounded-circle d-flex justify-content-center align-items-center position-absolute main-card-icon">
+                                    <i class="bi bi-heart-fill"></i>
+                                  </div>
+                                  </div>
+                                </div>
+                              </div>
+                            <div class="card-info">
+                                <h5 class="my-3 card-name">Moonlight Night</h5>
+                                <i class="bi bi-geo-alt-fill me-2"></i>
+                                <p class="d-inline me-4 card-map">Canada</p>
+                                <i class="bi bi-star-fill me-2"></i>4.7
+                            </div>
+                        </div>
+                        <div class="main-card p-2 col-4 position-relative">
+                            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active" data-bs-interval="2000">
+                                    <img src="bezaklar/media/card-2-img.png" class="img-fluid" alt="card img">
+                                    <div class="card-icon rounded-circle d-flex justify-content-center align-items-center position-absolute main-card-icon">
+                                    <i class="bi bi-heart-fill"></i>
+                               </div>
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="2000">
+                                    <img src="bezaklar/media/card-2-1.png" class="img-fluid" alt="card img">
+                                    <div class="card-icon rounded-circle d-flex justify-content-center align-items-center position-absolute main-card-icon">
+                                    <i class="bi bi-heart-fill"></i>
+                               </div>
+                                  </div>
+                                </div>
+                              </div>
+                            <div class="card-info">
+                                <h5 class="my-3 card-name">Sahara Desert</h5>
+                                <i class="bi bi-geo-alt-fill me-2"></i>
+                                <p class="d-inline me-4 card-map">Africa</p>
+                                <i class="bi bi-star-fill me-2"></i>4.9
+                            </div>
+                        </div>
+                        <div class="main-card p-2 col-4 position-relative">
+                            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active" data-bs-interval="2000">
+                                    <img src="bezaklar/media/card-3-img.png" class="img-fluid" alt="card img">
+                                    <div class="card-icon rounded-circle d-flex justify-content-center align-items-center position-absolute main-card-icon">
+                                    <i class="bi bi-heart-fill"></i>
+                               </div>
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="2000">
+                                    <img src="bezaklar/media/card-3-1.png" class="img-fluid" alt="card img">
+                                    <div class="card-icon rounded-circle d-flex justify-content-center align-items-center position-absolute main-card-icon">
+                                    <i class="bi bi-heart-fill"></i>
+                               </div>
+                                  </div>
+                                </div>
+                              </div>
+                            <div class="card-info">
+                                <h5 class="my-3 card-name">Night Camping</h5>
+                                <i class="bi bi-geo-alt-fill me-2"></i>
+                                <p class="d-inline me-4 card-map">New York</p>
+                                <i class="bi bi-star-fill me-2"></i>5.0
+                            </div>
+                        </div>
+                    </div>
+                    <!-- tepadagi 3 ta sosiy rasm -->
+                    
+                    <div class="mt-3">
+                        <div class="d-flex justify-content-between align-items-center">
+                             <div class="section-title">Event Dates</div>
+                        <div class="data py-2 px-3 border rounded-pill">
+                            January 15-2022
+                        </div>
+                        </div>
+                       <div class="d-flex justify-content-between mt-2">
+                        <div class="rounded-pill py-2 px-3 days">
+                            <p>Tu</p>
+                            <div class="overlay ms-1 my-1"></div>
+                            <p>13</p>
+                        </div>
+                        <div class="rounded-pill py-2 px-3  days">
+                            <p>We</p>
+                            <div class="overlay ms-1 my-1"></div>
+                            <p>14</p>
+                        </div>
+                        <div class="rounded-pill py-2 px-3  days">
+                            <p>Th</p>
+                            <div class="overlay ms-1 my-1"></div>
+                            <p>15</p>
+                        </div>
+                        <div class="rounded-pill py-2 px-3  days">
+                            <p>Fr</p>
+                            <div class="overlay ms-1 my-1"></div>
+                            <p>16</p>
+                        </div>
+                        <div class="rounded-pill py-2 px-3  days">
+                            <p>St</p>
+                            <div class="overlay ms-1 my-1"></div>
+                            <p>17</p>
+                        </div>
+                        <div class="rounded-pill py-2 px-3 days">
+                            <p>Su</p>
+                            <div class="overlay ms-1 my-1"></div>
+                            <p>18</p>
+                        </div>
+                        <div class="rounded-pill py-2 px-3 days">
+                            <p>Mo</p>
+                            <div class="overlay ms-1 my-1"></div>
+                            <p>19</p>
+                        </div>
+                        <div class="rounded-pill py-2 px-3 days">
+                            <p>Tu</p>
+                            <div class="overlay ms-1 my-1"></div>
+                            <p>20</p>
+                        </div>
+                       </div>
+                    </div>
+                    <!-- bottom box -->
+                    <div class="d-flex mt-4">
+                        <div class="d-flex p-2 animation-box me-5 active">
+                            <div class="b-img">
+                                <img src="bezaklar/media/b1.png" class="img-fluid" alt="b1 img">
+                            </div>
+                            <div class="b-info ps-3">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="under-info">
+                                        <p>Netherlands Travel Tour</p>
+                                        <i class="bi bi-star-fill me-3"></i> 4.7
+                                    </div>
+                                    <div>
+                                        <i class="bi bi-1-circle"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="animation-box d-flex p-2 me-5">
+                            <div class="b-img">
+                                <img src="bezaklar/media/b2.png" alt="b2 img">
+                            </div>
+                            <div class="b-info ps-3">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="under-info">
+                                        <p>Netherlands Travel Tour</p>
+                                        <i class="bi bi-star-fill me-3"></i> 4.7
+                                    </div>
+                                    <div    >
+                                        <i class="bi bi-2-circle"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="animation-box d-flex p-2">
+                            <div class="b-img">
+                                <img src="bezaklar/media/b3.png" alt="b2 img">
+                            </div>
+                            <div class="b-info ps-3">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="under-info">
+                                        <p>Netherlands Travel Tour</p>
+                                        <i class="bi bi-star-fill me-3"></i> 4.7
+                                    </div>
+                                    <div>
+                                        <i class="bi bi-3-circle"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /bottom box -->
+                </div>
+                <!-- /center position -->
+
+                <!-- right position -->
+                <div class="col-3">
+                    <div class="right-img mt-5 position-relative">
+                        <img src="bezaklar/media/right-img.png" class="img-fluid" alt="rigth img">
+                        <div class="card-icon rounded-circle d-flex justify-content-center align-items-center position-absolute main-card-icon">
+                            <i class="bi bi-heart-fill"></i>
+                           </div>
+                           <div class="position-absolute row p-3 right-absolute">
+                            <div class="col-10 offset-1 d-flex justify-content-between addition">
+                                <div class="absolute-img p-1">
+                                    <img src="bezaklar/media/p1.png" class="img-fluid" alt="p1 img">
+                                </div>
+                                <div class="absolute-img p-1">
+                                    <img src="bezaklar/media/p2.png" class="img-fluid" alt="p1 img">
+                                </div>
+                                <div class="absolute-img p-1">
+                                    <img src="bezaklar/media/p3.png"  class="img-fluid" alt="p1 img">
+                                </div>
+                                <div class="absolute-img p-1">
+                                    <img src="bezaklar/media/p4.png" class="img-fluid" alt="p1 img">
+                                </div>
+                            </div>
+                           </div>
+                    </div>
+                    <div class="section-title mt-3">
+                        Brazil Forest
+                    </div> 
+                    <div class="section-subtitle little mt-2">
+                        I spend ten minutes or so doing a couple of Duolingo
+                        lessons in French so 
+                    </div>
+                    <div class="d-flex mt-5 justify-content-between align-items-center">
+                        <div class="price">
+                            <p class="pb-0 little mb-1">per/person</p>
+                            <div class="section-title">
+                                $1540
+                            </div>
+                        </div>
+                        <div>
+                            <button type="button" class="py-2 px-3 price-button ">Book Travel</button>
+                        </div>
+                    </div>
+                    <!-- cards -->
+                    <div class="rigth-cards">
+                        <div class="right-card row my-4">
+                            <div class="col-5 right-card__img">
+                                <img src="bezaklar/media/s1.png" class="img-fluid" alt="s1 img">
+                            </div>
+                            <div class="col-7 right-card__info d-flex justify-content-between align-items-center">
+                               <div>
+                                <div class="card-title card-name">
+                                   <a href="#">Nature Lake</a>
+                                </div>
+                                <div class="card-map">
+                                    <i class="bi bi-geo-alt-fill me-1"></i>
+                                     <p class="d-inline me-3"><a href="#">Afghanistan</a></p>
+                                </div>
+                               </div>
+                               <div class="card-icon border rounded-circle d-flex justify-content-center align-items-center">
+                                <i class="bi bi-heart-fill"></i>
+                               </div>
+                            </div>
+                        </div>
+
+                        <div class="right-card row my-4">
+                            <div class="col-5 right-card__img">
+                                <img src="bezaklar/media/s4.png" class="img-fluid" alt="s1 img">
+                            </div>
+                            <div class="col-7 right-card__info d-flex justify-content-between align-items-center">
+                               <div>
+                                <div class="card-title card-name">
+                                    <a href="#">Camel Ride</a>
+                                </div>
+                                <div class="card-map">
+                                    <i class="bi bi-geo-alt-fill me-2"></i>
+                                    <p class="d-inline me-4 card-map"><a href="#">Srilanka</a></p>
+                                </div>
+                               </div>
+                               <div class="card-icon border rounded-circle d-flex justify-content-center align-items-center">
+                                <i class="bi bi-heart-fill"></i>
+                               </div>
+                            </div>
+                        </div>
+
+                        <div class="right-card row my-4">
+                            <div class="col-5 right-card__img">
+                                <img src="bezaklar/media/s3.png" class="img-fluid" alt="s1 img">
+                            </div>
+                            <div class="col-7 right-card__info d-flex justify-content-between align-items-center">
+                               <div>
+                                <div class="card-title card-name">
+                                   <a href="#"> Mid Forest</a>
+                                </div>
+                                <div class="card-subtitle">
+                                    <i class="bi bi-geo-alt-fill me-2"></i>
+                                     <p class="d-inline me-4 card-map"><a href="#">Brazil</a></p>
+                                </div>
+                               </div>
+                               <div class="card-icon border rounded-circle d-flex justify-content-center align-items-center">
+                                <i class="bi bi-heart-fill"></i>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 <!-- /right position -->
+            </div>
+        </div>
+        <!-- /main section-->
+        </div>
+       
+
+
+        <!-- Bootsrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </body>
+</html>

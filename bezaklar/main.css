@@ -1,0 +1,259 @@
+.box{
+    border-radius: 0.625rem;
+    background-color: rgba(242, 248, 253, 1);
+}
+
+.bi-star-fill, 
+.bi-1-circle,
+.bi-2-circle,
+.bi-3-circle{
+    color:rgba(255, 200, 94, 1);
+}
+
+.bi-geo-alt-fill{
+    color: rgba(180, 188, 196, 1);
+    font-size: 1.5rem;
+}
+
+body{
+    font-family: 'Fredoka';
+    color: rgba(24, 51, 62, 1);
+}
+
+.section-title{
+    font-weight: 600;
+    font-size: 1.875rem;
+    line-height: 3rem;
+}
+.card-name{
+    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+
+.card-map{
+    font-size: 500;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+.card-icon{
+    width: 2rem;
+    height: 2rem;
+    background-color: rgba(233, 241, 250, 1);
+    text-align: center;
+}
+
+.card-icon i{
+    transition: all 0.3s ease-in-out;
+}
+
+.card-icon:hover i{
+    color: rgba(255, 127, 92, 1);
+}
+
+.carousel-item{
+    border-radius: 1.5rem;
+    
+}
+/* Navigation section */
+
+.navigation-search input{
+    width: 41rem;
+    background-color: rgba(233, 241, 250, 1);
+    border-radius: 27px;
+    border: none;
+    padding: 0.625rem;
+}
+
+.navigation-search input:focus{
+    outline: none;
+}
+
+.navigation-search i{
+    font-size: 1.5rem;
+    background-color: rgba(24, 51, 62, 1);
+    color: white;
+    border-radius: 50%;
+}
+
+.navigation-img img{
+    width:3rem;
+}
+
+/* left position */
+.categories span{
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.categories i{
+    font-size: 1.5rem;
+}
+
+.categories a{
+    text-decoration: none;
+    color: rgba(24, 51, 62, 1);
+}
+
+/* center position */
+.little{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.list-inline-item a{
+    text-decoration: none;
+    color: rgba(24, 51, 62, 1);
+}
+
+
+.main-card-icon{
+    top: 1rem;
+    right: 1rem;
+}
+
+.main-card img{
+    height: 20rem;
+    width: 15rem;
+    border-radius:1.5rem;
+}
+.data:hover{
+    background-color: rgba(24, 51, 62, 1);
+    color: rgba(255, 255, 255, 1);
+}
+.days{
+    transition: all 0.3s ease-in-out;
+}
+.days p{
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+.days .overlay{
+    width: 8px;
+    height: 10px;
+    background-color: rgba(249, 212, 74, 1);
+    border-radius: 10px;
+    visibility: hidden;
+}
+
+.days:hover{
+    background-color: rgba(24, 51, 62, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.days:hover .overlay{
+    visibility: visible;
+}
+
+.animation-box{
+    border-radius: 10px;
+    transition: all 0.4s ease-in-out;
+}
+
+/* bottom box */
+
+.b-img img{
+    width: 4.5rem;
+    height: 4.8rem;
+    border-radius:10px;
+}
+
+.b-info{
+    display: none;
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+}
+
+.animation-box:hover{
+    background-color:rgba(24, 51, 62, 1);
+    color: white;
+    flex-grow: 3;
+}
+
+.active{
+    background-color:rgba(24, 51, 62, 1);
+    color: white;
+    flex-grow: 3;
+}
+
+.active .b-info{
+    display: inline;
+}
+
+.animation-box:hover .b-info{
+   display: inline;
+}
+
+.under-info p{
+    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 1.625rem;
+}
+
+.under-info{
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.875rem;
+}
+
+
+
+/*  /bottom box */
+
+
+/* right position */
+
+.right-img img{
+    border-radius: 1.25rem;
+}
+
+.absolute-img img{
+    border-radius: 0.625rem;
+    height: 3rem;
+}
+
+.addition{
+    background-color:rgba(255, 255, 255, 0.32);
+    border-radius: 0.625rem;
+}
+
+.right-absolute{
+    bottom: 0.8rem;
+}
+
+
+.rigth-cards{
+    margin-top: 6rem;
+}
+
+.right-card__info a{
+    text-decoration: none;
+    color: rgba(24, 51, 62, 1);
+}
+
+.right-card__img img{
+    border-radius: 1.25rem;
+    height: 4.6rem;
+}
+
+.price-button{
+    background-color: transparent;
+    border-radius: 2rem;
+    color: rgba(24, 51, 62, 1);
+    border: 1px solid rgba(24, 51, 62, 1);
+    font-size: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.price-button:hover{
+    background-color: rgba(24, 51, 62, 1);
+    color: white;
+}
+
+.card-title{
+    font-weight: 400;
+}
